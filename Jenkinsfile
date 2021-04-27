@@ -4,6 +4,7 @@ pipeline {
     stage('Checkout') {
       steps {
         echo 'Checkout from GitHub'
+        git 'https://github.com/agilas16/Maven.git'
       }
     }
 
